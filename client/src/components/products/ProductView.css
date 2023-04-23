@@ -1,0 +1,194 @@
+*{
+    /* border: 1px solid red; */
+}
+.product-view{
+    width: fill-available;
+    height: fill-available;
+    overflow: auto;
+}
+
+.product-view .preview{
+    /* width: 95%; */
+    padding: 0;
+    margin: 0;
+    position: relative;
+    /* margin-left: 10%; */
+    /* height: 500px; */
+    /* padding: 16px; */
+    /* padding-bottom: 0px; */
+    /* border-bottom: 1px solid rgb(231, 231, 231); */
+}
+
+ .preview ion-icon{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin: 25px;
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    border-radius: 50px;
+    z-index: 5;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0,0.2);
+}
+
+
+/*** Carousal  ********************************/
+.carousal-container{
+    /* background-color: blue; */
+    /* padding: 10px; */
+}
+.carousal-item-container{
+    padding: 16px;
+    width: fill-available;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background-color: red; */
+}
+.product_img{
+    width: fill-available;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 8px;
+    /* box-shadow: 0px 2px 3px 0 rgba(0, 0, 0,0.4); */
+    /* margin-bottom: 8px; */
+}
+
+.product_img .main_img{
+    
+    border-radius: 8px;
+    width: 100%;
+    height: 320px;
+}
+
+
+
+/*************************************/
+
+.product-view .nameplate {
+    /* width: 100%; */
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.product-view .nameplate .info{
+    display: flex;
+    flex-direction: row;
+    /* padding-bottom: 10px; */
+    padding-top: 5px;
+    margin-bottom: -5px;
+}
+.product-view .nameplate .product-title{
+    font-size: 28px;
+    flex: 1;
+    color:#474ea3;
+    font-weight: 600;
+    /* font-family: 'Roboto', sans-serif; */
+    margin-top: 5px;
+    font-family: 'Roboto','Noto Serif Bengali', sans-serif;
+    
+}
+.product-view .rating_and_price .product-price{
+    font-size: 25px;
+    font-family: 'Roboto','Noto Serif Bengali', sans-serif;
+    color:#474ea3;
+    font-weight: bold;
+}
+
+.product-view .nameplate .description{
+    color: gray;
+    font-size: 18px;
+    /* font-family: 'Roboto', sans-serif; */
+    text-align: justify;
+    font-family: 'Roboto','Noto Serif Bengali', sans-serif;
+}
+
+
+
+
+.product-view .action-buttons {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    /* padding: 4px; */
+    box-shadow: 0px -1px 4px 0px rgba(0, 0, 0,0.1);
+    display: flex;
+    justify-content:space-evenly;
+    background-color: white;
+    z-index: 10;
+}
+
+@media only screen and (min-width: 600px){
+    .product-view .action-buttons {
+        position: sticky;
+        width: 100%;
+        bottom: 0;
+        /* padding: 4px; */
+        box-shadow: 0px -1px 4px 0px rgba(0, 0, 0,0.1);
+        display: flex;
+        justify-content:space-evenly;
+        background-color: white;
+        z-index: 10;
+    }
+}
+
+.product-view .action-buttons  div{
+    flex: 1;
+}
+
+
+
+.rating-card{
+    width: 100px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2f3fef25;
+    border-radius: 5px;
+}
+
+.rating-card .stars{
+    background-color: #2f3fefdd;
+    width: 60px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    flex: 1.2;
+}
+
+.rating-card .stars ion-icon{
+    margin: 0;
+    height: 14px;
+    width: 14px;
+    margin: 4px;
+    color: white;
+}
+.rating-card p{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    margin-left: 4px;
+    color: #2f3fef;
+    flex: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.rating_and_price{
+    display: flex;
+    width: fill-available;
+    align-items: center;
+    margin-top: 16px;
+}
+.rating_and_price .product-price{
+    flex: 1;
+    text-align: right;
+
+}
+

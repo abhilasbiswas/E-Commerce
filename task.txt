@@ -1,0 +1,14 @@
+1. Control Panel
+    1.1 Inventory Management
+    1.2 Custormer Management
+        1.2.1 Guest user statistics
+        1.2.2 Register user activities
+        1.2.3 Creators
+        1.2.4 Modarators
+
+    1.3 Order Management
+    1.4 Shippment Management
+    1.5 Listing Handling
+    1.6 Communication Response
+
+    

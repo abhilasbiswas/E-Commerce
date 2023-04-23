@@ -1,0 +1,22 @@
+.collection-page{
+    position: relative;
+    overflow: auto;
+    height: fill-available;
+}
+
+.collection-page .tab{
+    width: fill-available;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.collection-page .tab p{
+    /* flex: 1; */
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: 'CeraMedium';
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    margin: 5px;
+    border-radius: 5px;
+}

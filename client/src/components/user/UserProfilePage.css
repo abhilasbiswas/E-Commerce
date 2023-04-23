@@ -1,0 +1,229 @@
+
+
+@font-face {
+  font-family: 'CeraLight';
+  src: url("../../assets/fonts/Cera\ Pro\ Light.otf") format('otf');
+}
+
+
+.user-profile-page{
+  width: fill-available;
+  height: 345px;
+  position: relative;
+  margin: 5px;
+  margin-top: 0;
+  overflow: auto;
+  /* background-color: red; */
+}
+.user-profile-page .user-cover-image{
+  width: fill-available;
+  height: 190px;
+  object-fit: cover;
+  box-shadow: 0 -2px 4px 0 rgb(138, 14, 14);
+}
+
+.user-profile-page .user-profile-data{
+  width: fill-available;
+  position: relative;
+}
+
+.profile-info {
+  width: fill-available;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  margin-top: 0;
+  border-radius: 8px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 10;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+}
+
+.profile-info .heading .dp-container{
+  width: fill-available;
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+  position: absolute;
+  /* top: 50%; */
+  overflow: hidden;
+  transform: translateY(-45%);
+  padding-bottom: 20px;
+}
+.profile-info .heading .dp-container .dp{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,0.2);
+}
+
+
+.profile-info .heading .user-name{
+
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 5px;
+  /* background-color: red; */
+  font-size: 25px;
+  font-family: "CeraMedium";
+}
+
+
+
+.profile-info .follow-buttons {
+  display: flex;
+
+}
+.profile-info .follow-buttons p{
+  flex: 1;
+  text-align: center;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px 0 rgba(49, 78, 243, 0.1);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 8px;
+  font-family: 'CeraRegular';
+  transition-duration: 300ms;
+  border: 1px solid rgba(0,0,0,0.04);
+}
+
+.profile-info .follow-buttons p:active{
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0 0 30px 0 rgba(49, 78, 243, 0.2);
+}
+
+
+.profile-info .heading .user-address{
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  font-family: "CeraLight";
+}
+
+.profile-info .heading .user-address span{
+  color: blue;
+}
+
+.profile-info .user-statistics{
+  background-color: white;
+  width: fill-available;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.profile-info .user-statistics .statics-data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "CeraLight";
+  ;
+}
+
+.profile-info .user-statistics .statics-data .data-type{
+  font-size: 12px;
+  color: gray;
+}
+.profile-info .user-statistics .statics-data .data{
+  font-size: 30px;
+  color: rgb(24, 24, 24);
+}
+
+.user-collections{
+  width: fill-available;
+  margin: 5px;
+  /* padding-top: 130px; */
+}
+
+
+.user-heading-common{
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  /* margin-left: 0px; */
+  font-family: "CeraLight";
+  z-index: 100;
+  width: fill-available;
+  background-color: white;
+  padding: 10px;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  color: rgb(43, 43, 43);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  /* margin-left: -5px;
+  margin-right: -5px; */
+}
+.user-products .product-heading{
+  margin-bottom: -10px;
+  margin-top: 15px;
+}
+.user-collections .collection-heading{
+  padding-bottom: 8px;
+  /* margin-top: 15px; */
+}
+
+
+.user-collections .collection-holder{
+  width: fill-available;
+  display: flex;
+  overflow-x: auto;
+  /* margin: 5px */
+}
+
+.collection-container{
+  flex: 0 0 auto;
+  width: 120px;
+  height: 150px;
+  margin-left: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  
+}
+.collection-container:last-child{
+  margin-right: 20px;
+}
+.collection-container .bg{
+
+}
+.collection-container .collection-bg{
+  position: absolute;
+  width: fill-available;
+  height: fill-available;
+  object-fit: cover;
+}
+.collection-container .collection-name{
+  position: absolute;
+  bottom: 0;
+  font-size: 18px;
+  color: white;
+  padding: 5px;
+  padding-top: 20px;
+  font-family: "CeraLight";
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0));
+}
+
+      
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  

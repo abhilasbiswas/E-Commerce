@@ -1,0 +1,70 @@
+.collection_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5px;
+}
+
+.groupCard{
+    /* background-color: red; */
+    position: relative;
+    width: fill-available;
+    height: 180px;
+    box-shadow: 0 0 8px 0 rgba(41, 45, 95, 0.2);
+    /* display: flex; */
+    margin: 8px;
+    /* padding: 5px; */
+    /* border: 1px solid red; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* .groupCard .img-container{
+    height: 100%;
+    width: 100%;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    align-content: center;
+} */
+
+
+.groupCard  .collection-feature{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* display: none; */
+    /* object-fit: cover; */
+    height: fill-available;
+    width: fill-available;
+    /* border-radius: 5px; */
+    /* display: flex;
+    align-items: center;
+    align-content: center; */
+    
+}
+
+
+.groupCard .cover{
+    position: absolute;
+    background-color: rgba(38, 114, 255, 0.0);
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.groupCard .collection_name{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 30px 8px 2px 8px;
+
+    margin: 0;
+    font-size: 15px;
+    /* font-weight: 600; */
+    background: linear-gradient(0deg, rgba(2, 25, 68, 0.4), rgba(0,0,0,0));
+
+    color: rgb(255, 255, 255);
+    font-family: 'CeraMedium','Noto Serif Bengali', sans-serif;
+}

@@ -1,0 +1,98 @@
+
+
+@font-face {
+  font-family: 'CeraLight';
+  src: url("./assets/fonts/Cera\ Pro\ Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'CeraRegular';
+  src: url("./assets/fonts/Cera\ Pro\ Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'CeraMedium';
+  src: url("./assets/fonts/Cera\ Pro\ Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'CeraBold';
+  src: url("./assets/fonts/Cera\ Pro\ Bold.otf") format("opentype");
+}
+
+.top-level-containerx{
+      position: absolute;
+      height: -webkit-fill-available;
+      width: 100%;
+}
+  
+.top-level-container{
+  height: 100%;
+}
+  
+.app-main-container{
+  height: 100%;
+}
+
+.floating-action-button{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100;
+}
+
+  @media only screen and (min-width : 500px) {
+    
+    *::-webkit-scrollbar {
+      display: none;
+    }
+    .top-level-containerx{
+      width: fill-available;
+      height: fill-available;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* background-color: rgb(233, 233, 233); */
+      background-color: rgb(211, 211, 211);
+    }
+    .top-level-container{
+      height:800px;
+      width: 400px;
+      overflow: hidden;
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      background-color: rgb(27, 27, 27);
+      padding: 2px 2px 2px 2px;
+      border-radius: 20px;
+        
+      box-shadow: 0 5px 16px 0 rgba(0,0,0,0.6);
+    }
+    .app-main-container{
+        width: fill-available;
+        border-radius: 20px;
+        overflow: hidden;
+        height: fill-available;
+        /* margin: 80px;   */
+        overflow: auto; 
+        background-color: rgb(253, 253, 255);
+        position: relative;
+
+    }
+    .floating-action-button{
+      /* height: 100%; */
+      position:absolute;
+      z-index: 100;
+      
+      }
+  }
+
+
+  .product-parent{
+    height: fill-available;
+    position: relative;
+    bottom: 0;
+    top: 0;
+    overflow: auto;
+  }

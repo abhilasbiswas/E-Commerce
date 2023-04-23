@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c11fa304.css",
+    "main.js": "/static/js/main.2719e8ef.js",
+    "static/media/Cera Pro Bold.otf": "/static/media/Cera Pro Bold.23dd9a3e7a1b992dedb7.otf",
+    "static/media/Cera Pro Medium.otf": "/static/media/Cera Pro Medium.2bc02ae84a1e73c231d6.otf",
+    "static/media/Cera Pro Regular.otf": "/static/media/Cera Pro Regular.8f68a75dd154b7d8968a.otf",
+    "static/media/Cera Pro Light.otf": "/static/media/Cera Pro Light.e46c8e0b3ab25af6d9eb.otf",
+    "static/media/follow.png": "/static/media/follow.44731031b8c578546ac7.png",
+    "index.html": "/index.html",
+    "main.c11fa304.css.map": "/static/css/main.c11fa304.css.map",
+    "main.2719e8ef.js.map": "/static/js/main.2719e8ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c11fa304.css",
+    "static/js/main.2719e8ef.js"
+  ]
+}

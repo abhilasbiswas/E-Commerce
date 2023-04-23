@@ -1,0 +1,41 @@
+
+
+.notification_head{
+    width: fill-available;
+    height: 60px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.14);
+    position: relative;
+    transition-duration: 100ms;
+    border: 1px solid rgb(223, 223, 223);
+}
+.notification_head:active{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+.notification_head .notificaiton-dot{
+    background-color: rgb(141, 141, 141);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+
+
+.notification_head .heading{
+    padding: 5px;
+    padding-top: 0;
+    font-size: 20px;
+    font-family: 'Roboto'
+}
+
+.notification_head .notification-body{
+    padding: 0 5px 5px 5px;
+    font-family: 'Roboto';
+    color: gray;
+}

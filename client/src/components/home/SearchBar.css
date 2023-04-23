@@ -1,0 +1,28 @@
+
+.group{
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    border: 1px solid rgb(213, 213, 213);
+    font-family:'Times New Roman', Times, serif;
+    margin: 2px 0px 2px 6px;
+    padding: 0px 10px 1px 10px;
+    margin-bottom: 0px;
+    color: #848484;
+
+    overflow: auto;
+}
+
+.groups{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 1px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid rgb(230, 229, 229);
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    color: black;
+}

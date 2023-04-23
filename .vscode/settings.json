@@ -1,0 +1,5 @@
+{
+    "easycode.model": "gpt-4",
+    "easycode.maxTokens": 5000,
+    "easycode.temperature": 0.5
+}

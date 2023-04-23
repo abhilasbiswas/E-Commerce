@@ -1,0 +1,242 @@
+:root {
+    --icon_width: 40px;
+}
+
+
+
+.app-bar-container{
+    top: 0;
+    width: fill-available;
+    height: 105%;
+    overflow: auto;
+    position: sticky;
+    z-index: 200;
+}
+
+
+.app-bar {
+    position: sticky;
+    top: 0;
+    background-color: rgb(98,0,238);
+    z-index: 10;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 3px 0px rgba(38, 37, 39, 0.5);
+}
+
+.mui-drawer{
+    margin-left: 50px;
+    background-color: none;
+    margin-top: 50px;
+}
+
+.app-bar .navigation{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.app-bar ion-icon {
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    color: rgb(255, 255, 255);
+    transition-duration: 200ms;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.08);
+    padding: 8px;
+    
+    margin: 5px;
+}
+
+.app-bar ion-icon:active{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.app-bar .logo{
+    flex: 1;
+    transition-duration: 200ms;
+}
+.app-bar .logo2{
+    color: rgba(0,0,0,0);
+    transition-duration: 200ms;
+}
+.app-bar .logo img {
+    
+    transition-duration: 200ms;
+    height: 36px;
+    /* filter: drop-shadow(-1px -1px 0.8px rgba(255, 255, 255, 0.5)); */
+}
+.app-bar .logo .nav-title{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    transition-duration: 200ms;
+    font-family: 'Roboto', sans-serif;
+}
+.app-bar .logo2 .nav-title{
+    color: white;
+    font-size: 0;
+    font-weight: 0;
+    transition-duration: 200ms;
+    font-family: 'Roboto', sans-serif;
+}
+.app-bar .logo2 img {
+    transition-duration: 200ms;
+    color: rgba(0,0,0,0);
+    height: 0px;
+    /* filter: drop-shadow(-1px -1px 0.8px rgba(255, 255, 255, 0.5)); */
+}
+.app-bar .cart{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(2, 2, 2,0.08);
+    /* padding: 8px; */
+    border-radius: 50px;
+}
+
+
+/* Search bar design */
+
+.app-bar .search-bar{
+    display: flex;
+    justify-content: right;
+    margin: 5px;
+    margin-right: 0;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    transition-duration: 200ms;
+    background-color: rgba(0, 0, 0,0.1);
+    
+    padding-right: 2px;
+}
+
+.app-bar .search-bar .search-input{
+    width: 0;
+    border: none;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border-bottom: none;
+    height: 28px;
+    color: rgba(255, 255, 255,0);
+    text-align: center;
+
+    font-size: large;
+    font-style: italic;
+    transition-duration: 200ms;
+
+
+    border: none;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    /* border-bottom: 2px solid rgba(134, 0, 197,0); */
+}
+
+.app-bar  .search-bar ion-icon{
+    margin: 0;
+    padding: 6px;
+    height: 24px;
+    width: 24px;
+    background-color: rgba(0, 0, 0,0);
+}
+.app-bar  .search-bar2 ion-icon{
+    margin: 0;
+    padding: 6px;
+    height: 24px;
+    width: 24px;
+    background-color: rgba(0, 0, 0,0);
+}
+
+
+
+
+.app-bar  .search-bar2{
+    
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    margin: 5px;
+    margin-right: 0;
+    border-radius: 40px;
+    height: 40px;
+    align-items: center;
+    padding-right: 2px;
+    background-color: rgba(0, 0, 0,0.1);
+    transition-duration: 200ms;
+}
+.app-bar  .search-bar2 .search-input{
+    
+    font-size: large;
+    width: 90%;
+    margin: auto;
+    border: none;
+    outline: none;
+    /* margin-left: 20px; */
+    background-color: rgba(0,0,0,0);
+    /* border-bottom: 2px solid rgb(134, 0, 197); */
+    height: 28px;
+    color: white;
+    text-align: center;
+
+    transition-duration: 200ms;
+}
+
+
+.app-bar .search-bar .search-input::placeholder{
+    color: rgb(150, 105, 255);
+}
+.app-bar .search-bar2 .search-input::placeholder{
+    color: rgb(150, 105, 255);
+}
+
+
+.nav-drawer-container{
+    background-color: red;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.appbar-create-button{
+    padding: 5px 10px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-family: 'CeraMedium';
+    transition-duration: 100ms;
+    box-shadow: 0 0 0px 0 rgba(0,0,0,0);
+}
+
+.appbar-create-button:active{
+    background-color: rgb(220, 220, 220);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+
+}
+
+.notification-dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(168, 168, 168);
+    
+}
+.menu-icon-holder{
+    display: flex;
+}
+
+.menu-icon-holder .notification-dot{
+    /* transform: translate(-15px, 10px); */
+    position: absolute;
+    left: 35px;
+    top: 13px;
+    background-color: rgb(228, 228, 228);
+}

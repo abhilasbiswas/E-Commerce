@@ -1,0 +1,65 @@
+ 1. Request
+    #1. request dialog open by Fab
+        1. subject
+        2. message
+    #2. request menu - Inbox
+    #3. request register user
+        1. delete option
+        2. notification on left top and dot on menu button
+        3. chat box with same subject
+    ~4. request register admin
+        1. admin reply
+        2. admin delete
+        3. chatbox with customer icon name and subject
+
+ 2. Feature redirect
+    1. redirect to a specific product or collection
+    2. admin option
+        1. Add collection or product
+        2. updated to database
+        3. update in react
+
+ 3. Tag options in product view
+    1. highlight tags
+    2. press tag to navigate to product list with search
+    3. extract tag from product JSON string
+    4. tag below the description
+    5. each tag with box, horizontal scrollable
+
+ 4. Rate option on pressting rating
+    1. Pop up rate dialog
+    2. Rate button
+    3. Close by clicking outside
+
+ 5. Image crop tool for admin
+ 6. Image zoom view on clicking main image or in image view
+ 7. "About us" page
+   #1. remove Help from menu
+   #2. remove contact from menu
+    3. add two icon on top middle
+    4. social link
+
+ 8. User notification controller
+    1. add favourite notification
+    2. message notification
+    3. order update
+    4. product comment reply notification
+    5. notification dot on menu icon
+    6. dot on particular menu option icon
+
+ 9. Product comment option
+    1. comment view
+        1. user icon
+        2. user name
+        3. user comment
+        4. reply option on right middle arrow towords left
+        5. write comment icon on bottom middle of empty comment product
+
+
+#10. replace "add cart" and "Buy" button with "add cart icon" Fab on bottom right corner
+ 11. Price design
+   #1. Align price 
+    2. Add price tag with design
+
+
+
